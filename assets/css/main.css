@@ -3759,13 +3759,10 @@ sup {
   line-height: 0;
 }
 #particles-js {
-  background: rgba(241, 242, 181, 1);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 88, 1) 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(19, 80, 88, 1)));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 88, 1) 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 88, 1) 100%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 88, 1) 100%);
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 88, 1) 100%);
+  background: -webkit-linear-gradient(#00111e 30%, #033d5e);
+  background: -moz-linear-gradient(#00111e 30%, #033d5e);
+  background: -o-linear-gradient(#00111e 30%, #033d5e);
+  background: linear-gradient(#00111e 30%, #033d5e);
   display: flex;
   vertical-align: bottom;
   width: 100%;
