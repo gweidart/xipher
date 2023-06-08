@@ -3759,10 +3759,10 @@ sup {
   line-height: 0;
 }
 #particles-js {
-  background: mix(#3f3251, #002025, 70%);
-  background: -moz-linear-gradient(45deg, #3f3251 2%, #002025 100%);
-  background: -webkit-linear-gradient(45deg, #3f3251 2%, #002025 100%);
-  background: linear-gradient(45deg, #3f3251 2%, #002025 100%);
+  background: linear-gradient(#121212, #161c18, 70%);
+  background: -moz-linear-gradient(45deg, #121212 30%, #161c18 100%);
+  background: -webkit-linear-gradient(45deg, #121212 30%, #161c18 100%);
+  background: linear-gradient(45deg, #121212 30%, #161c18 100%);
   display: flex;
   vertical-align: bottom;
   width: 100%;
