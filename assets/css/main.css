@@ -3914,6 +3914,9 @@ sup {
   color: #fff;
   font-size: 16px;
   background:rgb(48, 128, 107, 0.3);
+  border-radius: 15px;
+  box-shadow:  18px 18px 36px #aaaaaa,
+  -18px -18px 36px #ffffff;
 }
 @media only screen and (min-width: 550px) {
   .user {
@@ -3928,7 +3931,7 @@ sup {
 }
 #projects {
   background: #121212;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 90%;
@@ -3937,30 +3940,36 @@ sup {
 }
 @media only screen and (min-width: 550px) {
   #projects {
+    display: none;
     background:#121212;
     width: 80%;
   }
 }
 .user-projects {
+  display: none;
   background: #121212;
   margin: 20px auto;
 }
 .user-projects img {
+  display: none;
   max-width: 100%;
   height: auto;
   border-radius: 5px;
 }
 .user-projects h5,
 body {
+  display: none;
   background: #121212;
   margin: 0;
 }
 .user-projects li {
+  display: none;
   background:rgb(48, 128, 107, 0.3);
   color: #5fffd7;
   font-size: 1.1rem;
 }
 .user-projects p {
+  display: none;
   background:rgb(48, 128, 107, 0.3);
   color: #fff;
   margin-right: 5px;
@@ -3990,11 +3999,11 @@ body {
   }
 }
 .project-link {
-  display: inline-block;
+  display: none;
   margin: 10px 0;
   padding: 5px;
   color: #5fffd7;
-  background-color: #30806b;
+  background-color: #161c18;
   border: 1px solid #5fffd7;
   border-radius: 10px;
   text-align: center;
