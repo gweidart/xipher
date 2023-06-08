@@ -3706,7 +3706,7 @@ body {
   padding: 0;
   font-size: 100%;
   line-height: 1.5;
-  color: #555;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
 }
 article,
@@ -3718,6 +3718,7 @@ header,
 nav,
 section {
   display: block;
+  background: rgb(48, 128, 107, 0.3);
 }
 h1,
 h2,
@@ -3727,7 +3728,7 @@ stong {
   margin-top: 1em;
   padding-top: 1em;
   line-height: 1.25;
-  color: #333;
+  color: #fff;
 }
 h1 {
   font-size: 2.5rem;
@@ -3814,7 +3815,7 @@ sup {
   margin: 10px;
 }
 .header-links .link {
-  color: #fff;
+  color: #5fffd7;
   text-decoration: none;
   font-size: 15px;
   margin: 10px;
@@ -3831,7 +3832,7 @@ sup {
 }
 .down,
 .header-icons .icon {
-  color: #fff;
+  color: #5fffd7;
   text-align: center;
 }
 .header-icons .icon {
@@ -3846,7 +3847,7 @@ sup {
 }
 .header-icons .icon:active,
 .header-icons .icon:hover {
-  color: #1a222c;
+  color: #5fffd7;
   background: #fff;
 }
 @media only screen and (min-width: 550px) {
@@ -3912,6 +3913,7 @@ sup {
 .user p {
   color: #fff;
   font-size: 16px;
+  background:rgb(48, 128, 107, 0.3);
 }
 @media only screen and (min-width: 550px) {
   .user {
@@ -3954,10 +3956,12 @@ body {
   margin: 0;
 }
 .user-projects li {
+  background:rgb(48, 128, 107, 0.3);
   color: #5fffd7;
   font-size: 1.1rem;
 }
 .user-projects p {
+  background:rgb(48, 128, 107, 0.3);
   color: #fff;
   margin-right: 5px;
 }
@@ -3990,7 +3994,7 @@ body {
   margin: 10px 0;
   padding: 5px;
   color: #5fffd7;
-  background-color: transparent;
+  background-color: #30806b;
   border: 1px solid #5fffd7;
   border-radius: 10px;
   text-align: center;
@@ -4003,13 +4007,13 @@ body {
 .project-link:active,
 .project-link:hover {
   background-color: #54516a;
-  border-color: #54516a;
+  border-color: #5fffd7;
   color: #5fffd7;
   transition: color 0.3s ease-in, background-color 0.3s ease-in,
     border-color 0.3s ease-in;
 }
 .footer {
-  background: #1a222c;
+  background: #121212;
   padding: 10px 0;
   margin-top: 100px;
   text-align: center;
